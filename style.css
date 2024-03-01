@@ -1,0 +1,537 @@
+body {
+    margin: 0;
+    padding: 0;
+    opacity: 1;
+  }
+  
+  .row {
+    --bs-gutter-x: 0;
+  }
+  
+  .services .photo .photos .row {
+    --bs-gutter-x: 0;
+  }
+  
+  .container-fluid .contactinfo {
+    margin-top: 10px;
+  }
+  
+  .container-fluid .contactinfo b,
+  p {
+    font-size: 14px;
+  }
+  
+  .container-fluid .contactinfo i {
+    font-size: 10px;
+    padding: 0 5px 0 10px;
+  }
+  
+  .header .logo {
+    color: #f1b23c;
+    font-size: 1.5em;
+    font-weight: bold;
+  }
+  
+  .header {
+    justify-content: space-between;
+  }
+  
+  .header ul li a {
+    padding: 10px;
+    text-decoration: none;
+    color: #000;
+  }
+  
+  .header ul li.active a {
+    color: #f1b23c;
+  }
+  
+  .header .nav .mobilemenu {
+    font-size: 20px;
+    color: #000;
+  }
+  
+  .landingpage {
+    background-size: cover;
+  }
+  .landingpage .carousel .button {
+    padding: 5px 20px;
+    background: #f1b23c;
+    border: none;
+  }
+  .landingpage .carousel .carousel-item:nth-child(1) .img {
+    height: 500px;
+    width: 100%;
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(Images/dada.png);
+    background-size: cover;
+  }
+  .landingpage .carousel .carousel-item:nth-child(2) .img {
+    height: 500px;
+    width: 100%;
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(Images/den.png);
+    background-size: cover;
+  }
+  .landingpage .carousel .carousel-item:nth-child(3) .img {
+    height: 500px;
+    width: 100%;
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(./Images/whyus.jpg);
+    background-size: cover;
+  }
+  
+  .getaquote {
+    background: #f1b23c;
+    padding: 10px;
+  }
+  .getaquote .getaquotebtn button {
+    color: dark;
+    background: #fff;
+    border: none;
+    padding: 5px 15px;
+    font-size: 12px;
+    font-weight: bold;
+  }
+  
+  .contactus .media img {
+    height: 250px;
+    width: 300px;
+    -o-object-fit: contain;
+       object-fit: contain;
+  }
+  .contactus .media-body a {
+    color: #f1b23c;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  .services .photo .photos img {
+    height: 50px;
+    width: 50px;
+    background: #f1b23c;
+  }
+  
+  .services .photo .photos .col {
+    position: relative;
+  }
+  
+  .whyus {
+    background: #eeeeee;
+  }
+  .whyus .media img {
+    height: 250px;
+    width: 300px;
+    -o-object-fit: contain;
+       object-fit: contain;
+  }
+  .whyus .media-body a {
+    color: #f1b23c;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  .whyus .reason .fa {
+    color: #f1b23c;
+    font-size: 2em;
+  }
+  
+  .projects .ourgallery .photo .photos .row .col .img .imgtext {
+    display: none;
+  }
+  .projects .ourgallery .photo .photos .row .col .img:hover .imgtext {
+    display: none;
+  }
+  .projects .ourgallery .photo .photos .row:nth-child(1) .col:nth-child(1) .img {
+    height: 50px;
+    width: 50px;
+    position: relative;
+    z-index: 1;
+    background: url(Images/f1.png);
+    background-size: cover;
+    transition: 0.3s all ease;
+    cursor: pointer;
+  }
+  .projects .ourgallery .photo .photos .row:nth-child(1) .col:nth-child(1) .img:hover {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(Images/f2.png);
+    background-size: cover;
+  }
+  .projects .ourgallery .photo .photos .row:nth-child(1) .col:nth-child(2) .img {
+    height: 50px;
+    width: 50px;
+    position: relative;
+    z-index: 1;
+    background: url(Images/f3.png);
+    background-size: cover;
+    transition: 0.3s all ease;
+    cursor: pointer;
+  }
+  .projects .ourgallery .photo .photos .row:nth-child(1) .col:nth-child(2) .img:hover {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(Images/f4.png);
+    background-size: cover;
+  }
+  .projects .ourgallery .photo .photos .row:nth-child(1) .col:nth-child(3) .img {
+    height: 50px;
+    width: 50px;
+    position: relative;
+    z-index: 1;
+    background: url(Images/f5.png);
+    background-size: cover;
+    transition: 0.3s all ease;
+    cursor: pointer;
+  }
+  .projects .ourgallery .photo .photos .row:nth-child(1) .col:nth-child(3) .img:hover {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(Images/f6.png);
+    background-size: cover;
+  }
+  .projects .ourgallery .photo .photos .row:nth-child(1) .col:nth-child(4) .img {
+    height: 50px;
+    width: 50px;
+    position: relative;
+    z-index: 1;
+    background: url(Images/f7.png);
+    background-size: cover;
+    transition: 0.3s all ease;
+    cursor: pointer;
+  }
+  .projects .ourgallery .photo .photos .row:nth-child(1) .col:nth-child(4) .img:hover {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(Images/f1.png);
+    background-size: cover;
+  }
+  .projects .ourgallery .photo .photos .row:nth-child(2) .col:nth-child(1) .img {
+    height: 50px;
+    width: 50px;
+    position: relative;
+    z-index: 1;
+    background: url(Images/f2.png);
+    background-size: cover;
+    transition: 0.3s all ease;
+    cursor: pointer;
+  }
+  .projects .ourgallery .photo .photos .row:nth-child(2) .col:nth-child(1) .img:hover {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(Images/f3.png);
+    background-size: cover;
+  }
+  .projects .ourgallery .photo .photos .row:nth-child(2) .col:nth-child(2) .img {
+    height: 50px;
+    width: 50px;
+    position: relative;
+    z-index: 1;
+    background: url(Images/f5.png);
+    background-size: cover;
+    transition: 0.3s all ease;
+    cursor: pointer;
+  }
+  .projects .ourgallery .photo .photos .row:nth-child(2) .col:nth-child(2) .img:hover {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(Images/f6.png);
+    background-size: cover;
+  }
+  .projects .ourgallery .photo .photos .row:nth-child(2) .col:nth-child(3) .img {
+    height: 50px;
+    width: 50px;
+    position: relative;
+    z-index: 1;
+    background: url(Images/f7.png);
+    background-size: cover;
+    transition: 0.3s all ease;
+    cursor: pointer;
+  }
+  .projects .ourgallery .photo .photos .row:nth-child(2) .col:nth-child(3) .img:hover {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(Images/f2.png);
+    background-size: cover;
+  }
+  .projects .ourgallery .photo .photos .row:nth-child(2) .col:nth-child(4) .img {
+    height: 50px;
+    width: 50px;
+    position: relative;
+    z-index: 1;
+    background: url(Images/f4.png);
+    background-size: cover;
+    transition: 0.3s all ease;
+    cursor: pointer;
+  }
+  .projects .ourgallery .photo .photos .row:nth-child(2) .col:nth-child(4) .img:hover {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(./Images/gal8.jpg);
+    background-size: cover;
+  }
+  
+  .projects .projectmenu ul li {
+    color: #ddd;
+    padding: 5px 10px;
+    cursor: pointer;
+    transition: 0.3s all ease;
+  }
+  .projects .projectmenu ul li a {
+    text-decoration: none;
+    color: #000;
+  }
+  .projects .projectmenu ul li.active a {
+    color: #f1b23c;
+  }
+  .projects .projectmenu ul li:hover {
+    color: #f1b23c;
+  }
+  
+  .latestnews a {
+    color: #f1b23c;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  .latestnews img {
+    height: 200px;
+  }
+  
+  .latestnews .card {
+    border: none;
+  }
+  .latestnews .card img.active {
+    -o-object-fit: contain;
+       object-fit: contain;
+    background: url(./Images/landingpage.jpg);
+  }
+  
+  .latestnews .col {
+    padding: 20px;
+  }
+  .latestnews .col .img.active {
+    -o-object-fit: contain;
+       object-fit: contain;
+    background: url(./Images/landingpage.jpg);
+  }
+  .latestnews .col h2 {
+    font-size: 15px;
+    font-weight: bold;
+  }
+  .latestnews .col .date .dateinfo {
+    padding: 5px 0;
+    font-size: 10px;
+    color: #9d9d9d;
+  }
+  .latestnews .col .text p {
+    font-size: 10px;
+  }
+  .latestnews .col .button {
+    font-size: 10px;
+  }
+  
+  .sidenews img {
+    height: 100px;
+    width: 100px;
+    -o-object-fit: contain;
+       object-fit: contain;
+  }
+  
+  .footerinfo {
+    margin: 2em;
+  }
+  .footerinfo p {
+    padding: 10px;
+    color: #ddd;
+  }
+  .footerinfo ul li {
+    color: #ddd;
+    padding: 5px 10px;
+    cursor: pointer;
+    transition: 0.3s all ease;
+  }
+  .footerinfo ul li:hover {
+    color: #f1b23c;
+  }
+  
+  .footerinfo .logo {
+    color: #f1b23c;
+    font-size: 1.5em;
+    font-weight: bold;
+    margin: 10px;
+  }
+  
+  .footerinfo h5 {
+    font-weight: bold;
+    margin: 10px 0;
+    padding: 10px;
+  }
+  
+  .footerinfo .email {
+    padding: 10px;
+  }
+  .footerinfo .email input {
+    background: #333;
+    border: none;
+    width: 100px;
+  }
+  .footerinfo .email .input-group-text {
+    background: #333;
+    color: #f1b23c;
+    border: 0;
+  }
+  
+  .dreamproject {
+    background: linear-gradient(rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)), url(./Images/dream.jpg);
+    background-size: cover;
+    background-position: right 0% bottom 80%;
+  }
+  .dreamproject .getaquotebtn button {
+    color: #fff;
+    background: #f1b23c;
+    border: none;
+    padding: 10px 25px;
+    font-size: 12px;
+    font-weight: bold;
+  }
+  
+  .partner .photo .photos img {
+    border: 2px solid transparent;
+  }
+  .partner .photo .photos img.active {
+    border: 2px solid #f1b23c;
+  }
+  
+  .testimonial .media img {
+    margin-right: 10px;
+    border-radius: 50%;
+    -o-object-fit: contain;
+       object-fit: contain;
+    border: 1px solid #dfdfdf;
+  }
+  .testimonial .volinfo1 {
+    padding: 0 2em;
+  }
+  .testimonial .volinfo1 .insideinfo .media-body p {
+    margin-top: 10px;
+    font-size: 14px;
+  }
+  
+  .partnerhead {
+    padding: 20px;
+  }
+  .partnerhead .sidenav {
+    display: flex;
+    align-items: center;
+  }
+  .partnerhead .sidenav .fa {
+    margin: 0 5px;
+    cursor: pointer;
+    border-radius: 2px;
+  }
+  .partnerhead .sidenav .fa:nth-child(1) {
+    padding: 10px;
+    background: #f1b23c;
+    color: white;
+  }
+  .partnerhead .sidenav .fa:nth-child(2) {
+    padding: 10px;
+    background: rgb(192, 192, 192);
+    color: white;
+  }
+  
+  @media only screen and (min-width: 700px) {
+    .projects .ourgallery .photo .photos .row:nth-child(1) .col:nth-child(1) .img {
+      height: 100px;
+      width: 100px;
+    }
+    .projects .ourgallery .photo .photos .row:nth-child(1) .col:nth-child(2) .img {
+      height: 100px;
+      width: 100px;
+    }
+    .projects .ourgallery .photo .photos .row:nth-child(1) .col:nth-child(3) .img {
+      height: 100px;
+      width: 100px;
+    }
+    .projects .ourgallery .photo .photos .row:nth-child(1) .col:nth-child(4) .img {
+      height: 100px;
+      width: 100px;
+    }
+    .projects .ourgallery .photo .photos .row:nth-child(2) .col:nth-child(1) .img {
+      height: 100px;
+      width: 100px;
+    }
+    .projects .ourgallery .photo .photos .row:nth-child(2) .col:nth-child(2) .img {
+      height: 100px;
+      width: 100px;
+    }
+    .projects .ourgallery .photo .photos .row:nth-child(2) .col:nth-child(3) .img {
+      height: 100px;
+      width: 100px;
+    }
+    .projects .ourgallery .photo .photos .row:nth-child(2) .col:nth-child(4) .img {
+      height: 100px;
+      width: 100px;
+    }
+    .services .photo .photos img {
+      height: 50px;
+      width: 50px;
+    }
+  }
+  @media only screen and (min-width: 1000px) {
+    .header {
+      justify-content: space-around;
+    }
+    .footerinfo .email {
+      padding: 10px;
+    }
+    .footerinfo .email input {
+      background: #333;
+      border: none;
+      padding: 0 2px;
+    }
+    .footerinfo .email .input-group-text {
+      background: #333;
+      color: #f1b23c;
+      border: 0;
+    }
+    .services .photo .photos img {
+      height: 100px;
+      width: 100px;
+      background: #f1b23c;
+    }
+    .projects .ourgallery .photo .photos .row .col .img .imgtext {
+      display: none;
+    }
+    .projects .ourgallery .photo .photos .row .col .img:hover .imgtext {
+      display: block;
+      color: white;
+    }
+    .projects .ourgallery .photo .photos .row .col .img:hover .imgtext a {
+      text-decoration: none;
+      color: #f1b23c;
+    }
+    .projects .ourgallery .photo .photos .row:nth-child(1) .col:nth-child(1) .img {
+      height: 250px;
+      width: 250px;
+    }
+    .projects .ourgallery .photo .photos .row:nth-child(1) .col:nth-child(2) .img {
+      height: 250px;
+      width: 250px;
+    }
+    .projects .ourgallery .photo .photos .row:nth-child(1) .col:nth-child(3) .img {
+      height: 250px;
+      width: 250px;
+    }
+    .projects .ourgallery .photo .photos .row:nth-child(1) .col:nth-child(4) .img {
+      height: 250px;
+      width: 250px;
+    }
+    .projects .ourgallery .photo .photos .row:nth-child(2) .col:nth-child(1) .img {
+      height: 250px;
+      width: 250px;
+    }
+    .projects .ourgallery .photo .photos .row:nth-child(2) .col:nth-child(2) .img {
+      height: 250px;
+      width: 250px;
+    }
+    .projects .ourgallery .photo .photos .row:nth-child(2) .col:nth-child(3) .img {
+      height: 250px;
+      width: 250px;
+    }
+    .projects .ourgallery .photo .photos .row:nth-child(2) .col:nth-child(4) .img {
+      height: 250px;
+      width: 250px;
+    }
+    .testimonial .media img {
+      margin-right: 10px;
+      border-radius: 50%;
+      -o-object-fit: contain;
+         object-fit: contain;
+      border: 1px solid #dfdfdf;
+    }
+    .testimonial .volinfo1 {
+      padding: 0 4em;
+    }
+  }/*# sourceMappingURL=style.css.map */
